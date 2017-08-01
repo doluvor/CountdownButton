@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CountdownButton: FlatButton, CountdownButtonProtocol {
+class CountdownButton: UIButton, CountdownButtonProtocol {
 
     var timer: DispatchSourceTimer?
 
@@ -65,7 +65,7 @@ class CountdownButton: FlatButton, CountdownButtonProtocol {
                 } else {
 
                     print(self!.count)
-                    self?.setTitle("剩余\(self!.count)秒", for: .normal)
+                    self?.setTitle("\(self!.count)s left", for: .normal)
 
                     self?.count -= 1
                 }

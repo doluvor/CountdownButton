@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED551F281F3064C200F315EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED551F271F3064C200F315EC /* AppDelegate.swift */; };
+		ED551F2A1F3064C300F315EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED551F291F3064C300F315EC /* ViewController.swift */; };
+		ED551F2D1F3064C300F315EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED551F2B1F3064C300F315EC /* Main.storyboard */; };
+		ED551F2F1F3064C300F315EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED551F2E1F3064C300F315EC /* Assets.xcassets */; };
+		ED551F321F3064C300F315EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED551F301F3064C300F315EC /* LaunchScreen.storyboard */; };
+		ED551F3C1F30655000F315EC /* CountdownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED551F3A1F30655000F315EC /* CountdownButton.swift */; };
+		ED551F3D1F30655000F315EC /* CountdownButtonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED551F3B1F30655000F315EC /* CountdownButtonProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED551F241F3064C200F315EC /* CountdownButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED551F271F3064C200F315EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED551F291F3064C300F315EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED551F2C1F3064C300F315EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED551F2E1F3064C300F315EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED551F311F3064C300F315EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED551F331F3064C300F315EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED551F3A1F30655000F315EC /* CountdownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownButton.swift; sourceTree = "<group>"; };
+		ED551F3B1F30655000F315EC /* CountdownButtonProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownButtonProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED551F211F3064C200F315EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED551F1B1F3064C200F315EC = {
+			isa = PBXGroup;
+			children = (
+				ED551F261F3064C200F315EC /* CountdownButtonDemo */,
+				ED551F251F3064C200F315EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED551F251F3064C200F315EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED551F241F3064C200F315EC /* CountdownButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED551F261F3064C200F315EC /* CountdownButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ED551F391F30655000F315EC /* CountdownButton */,
+				ED551F271F3064C200F315EC /* AppDelegate.swift */,
+				ED551F291F3064C300F315EC /* ViewController.swift */,
+				ED551F2B1F3064C300F315EC /* Main.storyboard */,
+				ED551F2E1F3064C300F315EC /* Assets.xcassets */,
+				ED551F301F3064C300F315EC /* LaunchScreen.storyboard */,
+				ED551F331F3064C300F315EC /* Info.plist */,
+			);
+			path = CountdownButtonDemo;
+			sourceTree = "<group>";
+		};
+		ED551F391F30655000F315EC /* CountdownButton */ = {
+			isa = PBXGroup;
+			children = (
+				ED551F3A1F30655000F315EC /* CountdownButton.swift */,
+				ED551F3B1F30655000F315EC /* CountdownButtonProtocol.swift */,
+			);
+			name = CountdownButton;
+			path = ../../CountdownButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED551F231F3064C200F315EC /* CountdownButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED551F361F3064C300F315EC /* Build configuration list for PBXNativeTarget "CountdownButtonDemo" */;
+			buildPhases = (
+				ED551F201F3064C200F315EC /* Sources */,
+				ED551F211F3064C200F315EC /* Frameworks */,
+				ED551F221F3064C200F315EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountdownButtonDemo;
+			productName = CountdownButtonDemo;
+			productReference = ED551F241F3064C200F315EC /* CountdownButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED551F1C1F3064C200F315EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = doluvor;
+				TargetAttributes = {
+					ED551F231F3064C200F315EC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ED551F1F1F3064C200F315EC /* Build configuration list for PBXProject "CountdownButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED551F1B1F3064C200F315EC;
+			productRefGroup = ED551F251F3064C200F315EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED551F231F3064C200F315EC /* CountdownButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED551F221F3064C200F315EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED551F321F3064C300F315EC /* LaunchScreen.storyboard in Resources */,
+				ED551F2F1F3064C300F315EC /* Assets.xcassets in Resources */,
+				ED551F2D1F3064C300F315EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED551F201F3064C200F315EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED551F2A1F3064C300F315EC /* ViewController.swift in Sources */,
+				ED551F281F3064C200F315EC /* AppDelegate.swift in Sources */,
+				ED551F3C1F30655000F315EC /* CountdownButton.swift in Sources */,
+				ED551F3D1F30655000F315EC /* CountdownButtonProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED551F2B1F3064C300F315EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED551F2C1F3064C300F315EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED551F301F3064C300F315EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED551F311F3064C300F315EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED551F341F3064C300F315EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED551F351F3064C300F315EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED551F371F3064C300F315EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountdownButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doluvor.CountdownButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED551F381F3064C300F315EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountdownButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doluvor.CountdownButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED551F1F1F3064C200F315EC /* Build configuration list for PBXProject "CountdownButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED551F341F3064C300F315EC /* Debug */,
+				ED551F351F3064C300F315EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED551F361F3064C300F315EC /* Build configuration list for PBXNativeTarget "CountdownButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED551F371F3064C300F315EC /* Debug */,
+				ED551F381F3064C300F315EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED551F1C1F3064C200F315EC /* Project object */;
+}
